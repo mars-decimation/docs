@@ -1,7 +1,7 @@
 Mars Decimation Protocol
 ======
 
-To start a new connection to the server, the client first connects to the server with an SSL socket.
+To start a new connection to the server, the client first connects to the server with an SSL socket, or a non-encrypted socket for testing.
 The default port for this connection is 3411 (as of this time).
 Directly after connecting to the server, the client starts the Login process.
 
